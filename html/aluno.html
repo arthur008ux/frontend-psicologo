@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Agendar Consulta</title>
+    <link rel="stylesheet" href="../css/aluno.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+
+        <h2>Agendar Consulta</h2>
+
+        <!-- NOME -->
+        <input type="text" id="nome" placeholder="Seu nome">
+
+        <!-- TURMA -->
+        <label>Turma</label>
+        <select id="turmaSelect">
+            <option value="">Carregando turmas...</option>
+        </select>
+
+        <!-- PSICÓLOGO -->
+        <label>Psicólogo</label>
+        <select id="psicologoSelect">
+            <option value="">Carregando psicólogos...</option>
+        </select>
+
+        <!-- MOTIVO -->
+        <input type="text" id="motivo" placeholder="Motivo da consulta">
+
+        <!-- HORÁRIOS -->
+        <div id="horariosContainer"></div>
+
+    </div>
+</div>
+
+<script src="../js/aluno.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Psicólogo</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="dashboard">
+
+        <div class="topo">
+            <h2 id="bemvindo">Dashboard</h2>
+            <button onclick="logout()">Sair</button>
+        </div>
+
+        <div class="cards">
+
+            <div class="card-box">
+                <h3>Horários</h3>
+                <button onclick="carregarHorarios()">Atualizar</button>
+                <div id="horarios"></div>
+            </div>
+
+            <div class="card-box">
+                <h3>Consultas</h3>
+                <button onclick="carregarConsultas()">Atualizar</button>
+                <div id="consultas"></div>
+            </div>
+
+        </div>
+
+        <div class="criar-horario">
+            <h3>Criar horário</h3>
+            <input type="datetime-local" id="dataHora">
+            <button onclick="criarHorario()">Criar</button>
+        </div>
+
+    </div>
+</div>
+
+<script src="../js/dashboard.js"></script>
+</body>
+</html>
