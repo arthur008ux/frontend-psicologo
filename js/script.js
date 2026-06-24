@@ -38,9 +38,8 @@ async function login() {
 
         // redireciona
         setTimeout(() => {
-            window.location.href = "./html/dashboard.html";
-        }, 800);
-
+    window.location.href = "html/dashboard.html";
+}, 800);
     } catch (err) {
         console.error(err);
         msg.innerText = "Erro ao conectar com servidor";
