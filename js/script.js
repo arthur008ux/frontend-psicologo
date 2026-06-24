@@ -38,7 +38,7 @@ async function login() {
 
         // redireciona
         setTimeout(() => {
-            window.location.href = "../src/dashboard.html";
+            window.location.href = "./html/dashboard.html";
         }, 800);
 
     } catch (err) {
